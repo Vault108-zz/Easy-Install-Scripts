@@ -20,7 +20,7 @@ while :
   read yourch
   case $yourch in
     1) echo "Enter Your Password Below  To Install Vim";  sudo apt-get install vim ; read -n 1 ;;
-    2) echo "Opening Source" ; nano ./men.sh ; echo "Press a key. . ." ; read -n 1 ;;
+    2) echo "Opening Source" ; nano ./Easy_Install_Menu.sh ; echo "Press a key. . ." ; read -n 1 ;;
     3) cal ; echo "Press a key. . ." ; read -n 1 ;;
     4) vi ;;
     5) echo "Enter your NBE file(s): \c"
