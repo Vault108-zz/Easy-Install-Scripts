@@ -16,7 +16,7 @@ while :
   echo "[7] Produce a non-scan Tabular Nessus Report"
   echo "[8] Exit/stop"
   echo "----------------------------------------------"
-  echo -n "Enter your menu choice [1-5]:"
+  echo -n "Enter your menu choice [1-8]:"
   read yourch
   case $yourch in
     1) echo "Enter Your Password Below  To Install Vim";  sudo apt-get install vim ; read -n 1 ;;
